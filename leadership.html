@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Amantambo Royal Leadership</title>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Segoe UI", sans-serif;
+    }
+
+    body {
+      background: #ffffff;
+      color: #333;
+    }
+    section{
+        border-top: 40px solid transparent; /* space for the border */
+        border-image: url("border.jpg") 40 repeat; 
+    }
+    h1 {
+      text-align: center;
+      padding: 40px 20px 10px;
+      color: #aa3304;
+      font-size: 36px;
+    }
+
+    h2 {
+      text-align: center;
+      color: #666;
+      margin-bottom: 40px;
+      font-weight: 300;
+    }
+
+    .section {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 70vh;
+      padding: 40px 10%;
+      gap: 40px;
+    }
+
+    /* Alternate layout */
+    .section:nth-child(even) {
+      flex-direction: row-reverse;
+      background: #f8f8f8;
+    }
+
+    .image {
+      flex: 1;
+    }
+
+    /* ✅ FIXED IMAGE (NO QUALITY LOSS) */
+    .image img {
+      width: 100%;
+      max-height: 100%;
+      height: auto;
+      object-fit: cover;
+      object-position: center;
+      border-radius: 12px;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+      transition: 0.4s;
+    }
+
+    /* Optional hover effect */
+    .image img:hover {
+      transform: scale(1.03);
+    }
+
+    .content {
+      flex: 1;
+    }
+
+    .content h3 {
+      font-size: 28px;
+      margin-bottom: 10px;
+      color: #aa3304;
+    }
+
+    .content span {
+      font-size: 16px;
+      font-weight: bold;
+      color: #333;
+      display: block;
+      margin-bottom: 15px;
+    }
+
+    .content p {
+      font-size: 15px;
+      color: #555;
+      line-height: 1.6;
+      margin-bottom: 15px;
+    }
+
+    .content i {
+      color: #aa3304;
+      margin-right: 8px;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .section {
+        flex-direction: column;
+        padding: 30px 20px;
+      }
+
+      .section:nth-child(even) {
+        flex-direction: column;
+      }
+
+      .image img {
+        height: 220px;
+      }
+    }
+  </style>
+</head>
+<body>
+   <section>
+  <h1>Amantambo Royal Family</h1>
+  <h2><b>Ah! Xhel'ndlovu</b></h2>
+  <h2>Leadership</h2>
+
+  <!-- King -->
+  <div class="section" id="section-1">
+    <div class="image">
+      <img src="assets/l-1.jpg" alt="King">
+    </div>
+    <div class="content">
+      <h3>Paramount chief</h3>
+      <span>Xhelindovu (Mzukisi Mpengesi)</span>
+      <p>
+        The supreme leader and custodian of Amantambo Royal traditions,
+        guiding the nation with wisdom, authority, and cultural integrity.
+      </p>
+    </div>
+  </div>
+
+  <!-- Chief Elder -->
+  <div class="section">
+    <div class="image">
+      <img src="assets/l-2 (2).jpeg" alt="Chief Elder">
+    </div>
+    <div class="content">
+      <h3>Senior Chief Advisor</h3>
+      <span>Jonguhlanga (Andile Mtshwane)</span>
+      <p>
+        Provides strategic guidance and preserves cultural values,
+        ensuring decisions align with tradition and community well-being.
+      </p>
+    </div>
+  </div>
+
+
+    
+      <br>
+      <h2><b>Royal Council</b></h2>
+    <!-- Chief Elder -->
+  <div class="section" >
+    <div class="image">
+   
+    </div>
+    <div class="content">
+      <h3>Chairperson</h3>
+      <span>Hlahlindlela (Luyanda Maqutyana)</span>
+      <h3>Secretary</h3>
+      <span>Princess, Buwa Pamela</span>
+      <h3>Assistant Secretary</h3>
+      <span>(Diliz'intaba) Makhaya Nolutshungu</span>
+    </section>
+  </div>
+</body>
+</html>
